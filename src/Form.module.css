@@ -31,6 +31,13 @@
   color: tomato;
 }
 
+.errorSubmit {
+  margin: 0;
+  font-size: 16px;
+  color: tomato;
+  align-self: flex-end;
+}
+
 .wrapCheckbox {
   display: flex;
   align-items: center;
@@ -55,4 +62,10 @@
   height: 34px;
   font-size: 20px;
   cursor: pointer;
+}
+
+.pending {
+  align-self: flex-end;
+  height: 34px;
+  margin: 0;
 }
