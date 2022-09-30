@@ -20,6 +20,11 @@
   width: 100%;
   font-size: 24px;
   padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.input[aria-invalid='true'] {
+  outline: 2px solid tomato;
 }
 
 .error {
@@ -62,6 +67,7 @@
   height: 34px;
   font-size: 20px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .pending {
