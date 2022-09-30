@@ -30,3 +30,29 @@
   font-size: 16px;
   color: tomato;
 }
+
+.wrapCheckbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+.labelCheckbox {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.submit {
+  align-self: flex-end;
+  width: 160px;
+  height: 34px;
+  font-size: 20px;
+  cursor: pointer;
+}
